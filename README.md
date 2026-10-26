@@ -1,21 +1,26 @@
-<<<<<<< HEAD
-# test_tag
+# To-Do List App (Flutter)
 
-A new Flutter project.
+A simple to-do list app built with Flutter. Add tasks, mark them done and
+keep your day organised. The project includes Firebase configuration for
+backend sync.
+
+## Features
+
+- Add, complete and delete tasks
+- Clean mobile UI built with Flutter widgets
+- Firebase project configuration included (`firebase.json`)
+
+## Tech Stack
+
+- Flutter / Dart
+- Firebase
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
-=======
-# To-do-list-App
-Flutter App project
->>>>>>> 877353e58dc3eb5e0b2608712a13456c70058d69
+To connect your own Firebase project, replace the Firebase config with the
+one from your Firebase console.
